@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Group C Puzzle Games</title>
+ 
+</head>
+<body>
+   
+   <h2>Group<b>C</b><i> Puzzle Games</i></h2>
+   <button id="show-image-button1">Unsolved starbattle</button>
+   <img id="my-image1" src="unstr.png" alt="Unsolved" style="display: none;">
+
+   <button id="show-image-button2">solved starbattle</button>
+   <img id="my-image2" src="try.png" alt="solved" style="display: none;">
+
+   <button id="show-image-button3">Unsolved Binox</button>
+   <img id="my-image3" src="unsx.png" alt="Unsolved" style="display: none;">
+
+   <button id="show-image-button4">Solved Binox</button>
+   <img id="my-image4" src="sx.png" alt="solved" style="display: none;">
+   <script>
+      const showImageButton1 = document.getElementById("show-image-button1");
+      const myImage1 = document.getElementById("my-image1"); 
+      showImageButton1.addEventListener("click", () => { 
+         myImage1.style.display = "block"; 
+      });
+
+      const showImageButton2 = document.getElementById("show-image-button2");
+      const myImage2 = document.getElementById("my-image2"); 
+      showImageButton2.addEventListener("click", () => { 
+         myImage2.style.display = "block"; 
+      });
+
+      const showImageButton3 = document.getElementById("show-image-button3");
+      const myImage3 = document.getElementById("my-image3"); 
+      showImageButton3.addEventListener("click", () => { 
+         myImage3.style.display = "block"; 
+      });
+
+      const showImageButton4 = document.getElementById("show-image-button4");
+      const myImage4 = document.getElementById("my-image4"); 
+      showImageButton4.addEventListener("click", () => { 
+         myImage4.style.display = "block"; 
+      });
+   </script>
+</body>
+</html>
